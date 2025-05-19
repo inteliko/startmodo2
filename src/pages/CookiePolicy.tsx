@@ -106,7 +106,7 @@ const CookiePolicy = () => {
           <h2>Contact Us</h2>
           <p>
             If you have any questions about our use of cookies or other technologies, please contact us at 
-            cookies@StartModo.com.
+            cookies@StartModo.com
           </p>
         </div>
       </main>
