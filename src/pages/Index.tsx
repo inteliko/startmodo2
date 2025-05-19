@@ -85,15 +85,7 @@ const Index = () => {
         <Navbar />
         
         {/* Section indicators */}
-        <div className="section-indicator hidden md:flex">
-          {homeColorSections.map((section, index) => (
-            <div 
-              key={section.sectionId}
-              className={`section-dot ${index === 0 ? 'active' : ''}`}
-              onClick={() => scrollToSection(index)}
-            />
-          ))}
-        </div>
+        
         
         <div className="bg-transparent pt-24">
           <div 

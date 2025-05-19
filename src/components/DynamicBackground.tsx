@@ -17,7 +17,7 @@ const DynamicBackground = ({ colorSections, children }: DynamicBackgroundProps) 
   useScrollColor(colorSections);
 
   return (
-    <div className="dynamic-background min-h-screen transition-colors duration-700 ease-in-out" style={{ backgroundColor: "var(--dynamic-bg)", color: "var(--dynamic-text)" }}>
+    <div className="dynamic-background min-h-screen transition-colors duration-500 ease-in-out" style={{ backgroundColor: "var(--dynamic-bg)", color: "var(--dynamic-text)" }}>
       {children}
     </div>
   );
