@@ -21,7 +21,7 @@ const projectImages = [
     category: "UX/UI Design"
   },
   {
-    src: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3",
+    src: "public/projects/fork-lift.gif",
     alt: "Modern laptop display",
     title: "SaaS Dashboard",
     category: "Product Design"

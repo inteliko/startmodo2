@@ -14,11 +14,11 @@ interface TeamMember {
 }
 
 const TeamMembers: TeamMember[] = [
-  { id: 1, name: "Fahima Afreen", role: "Project Manager", color: "bg-lime-400", image: "/team/moon_executive.jpg" },
+  { id: 1, name: "", role: "", color: "bg-lime-400", image: "" },
   { id: 2, name: "Lamia Islam", role: "Graphic Designer", color: "bg-white", image: "public/team/lamia.jpeg" },
   { id: 3, name: "Raton Kumar", role: "Developer", color: "bg-blue-500", image: "public/team/ratan_dev.jpeg" },
   { id: 4, name: "Md Yaikub Hossain Razon", role: "SEO & Content Team Lead", color: "bg-white", image: "public/team/seo.jpeg" },
-  { id: 5, name: "Mou Shermin", role: "UI/UX Designer", color: "bg-blue-500", image: "/team/mou.jpg" },
+  { id: 5, name: "Fahima Afreen", role: "Project Manager", color: "bg-orange-500", image: "/team/moon_executive.jpg" },
   { id: 6, name: "Md. Jakaria Hossain", role: "Webflow Developer", color: "bg-white", image: "public/team/sweet.jpeg" },
   { id: 7, name: "Russel W.", role: "Graphic Designer", color: "bg-teal-400", image: "/team/russel.jpg" },
   { id: 8, name: "Kristian L.", role: "Wordpress Developer", color: "bg-lime-400", image: "/team/kristian.jpg" },
@@ -27,6 +27,8 @@ const TeamMembers: TeamMember[] = [
   { id: 11, name: "Mel R.", role: "Creative Director", color: "bg-white", image: "/team/mel.jpg" },
   { id: 12, name: "Joshua B.", role: "UI/UX Designer", color: "bg-blue-500", image: "/team/joshua.jpg" },
 ];
+
+
 
 const TeamCarousel = () => {
   const carouselRef = useRef<HTMLDivElement>(null);

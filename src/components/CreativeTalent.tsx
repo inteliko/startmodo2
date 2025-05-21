@@ -23,13 +23,13 @@ const CreativeTalent = () => {
           </p>
           <div className="flex justify-center gap-4">
             <div className="w-12 h-12 bg-gray-300 rounded-full overflow-hidden">
-              <img src="/placeholder.svg" alt="Team member 1" className="w-full h-full object-cover" />
+              <img src="public/team/moon_executive.jpg" alt="Team member 1" className="w-full h-full object-cover" />
             </div>
             <div className="w-12 h-12 bg-gray-300 rounded-full overflow-hidden">
-              <img src="/placeholder.svg" alt="Team member 2" className="w-full h-full object-cover" />
+              <img src="public/team/sweet.jpeg" alt="Team member 2" className="w-full h-full object-cover" />
             </div>
             <div className="w-12 h-12 bg-gray-300 rounded-full overflow-hidden">
-              <img src="/placeholder.svg" alt="Team member 3" className="w-full h-full object-cover" />
+              <img src="public/team/lamia.jpeg" alt="Team member 3" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

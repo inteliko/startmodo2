@@ -80,7 +80,7 @@ export const showcaseItems: ShowcaseItem[] = [
   },
   {
     id: "brand-identity",
-    image: "/placeholder.svg",
+    image: "public/projects/fork-lift.gif",
     title: "Brand Identity System",
     category: "Branding, Design System",
     description: "A comprehensive brand identity system including logo design, typography, color palette, and design guidelines that established a consistent visual language across all touchpoints.",
