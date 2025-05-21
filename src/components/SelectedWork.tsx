@@ -9,13 +9,13 @@ import {
 
 const projectImages = [
   {
-    src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3",
-    alt: "Tech project featuring a laptop computer",
-    title: "Digital Platform Design",
-    category: "Web Development"
+    src: "public/projects/crm_screenshot.gif",
+    alt: "TMarketing and Sales Automation",
+    title: "Marketing and Sales Automation ",
+    category: "Dashboard"
   },
   {
-    src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3",
+    src: "public/projects/trix-rap.gif",
     alt: "Woman using a laptop computer",
     title: "E-Commerce Solution",
     category: "UX/UI Design"

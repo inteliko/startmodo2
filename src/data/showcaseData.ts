@@ -12,31 +12,53 @@ export interface ShowcaseItem {
 }
 
 export const showcaseItems: ShowcaseItem[] = [
+ {
+  id: "ecommerce-redesign",
+  image: "public/projects/crm_screenshot.gif",
+  title: "Marketing and Sales Automation Dashboard",
+  category: "Automation, Marketing, Sales",
+  description: "A powerful all-in-one dashboard designed to automate marketing workflows, track sales performance in real-time, and optimize customer engagement. The tool integrates CRM data with marketing campaigns to streamline lead nurturing and boost conversion rates by 45%.",
+  client: "Fashion Retailer Inc.",
+  deliverables: [
+    "Marketing Automation Setup",
+    "Sales Funnel Optimization",
+    "Dashboard Analytics",
+    "Email Campaign Management",
+    "CRM Integration"
+  ],
+  technologies: [
+    "Shopify",
+    "React",
+    "Tailwind CSS",
+    "Google Analytics",
+    "HubSpot API"
+  ],
+  year: "2023"
+}
+
+
+,
   {
-    id: "ecommerce-redesign",
-    image: "/placeholder.svg",
-    title: "E-commerce Website Redesign",
-    category: "Shopify, UI/UX",
-    description: "A complete redesign of an e-commerce platform that increased conversion rates by 45% and improved user engagement. The project focused on streamlining the checkout process and enhancing product discovery.",
-    client: "Fashion Retailer Inc.",
-    deliverables: ["UX Research", "UI Design", "Shopify Development", "SEO Optimization"],
-    technologies: ["Shopify", "React", "Tailwind CSS", "Google Analytics"],
-    year: "2023"
-  },
-  {
-    id: "enterprise-dashboard",
-    image: "/placeholder.svg",
-    title: "Enterprise Dashboard",
-    category: "Web App, React",
-    description: "A comprehensive dashboard solution for enterprise resource management that centralizes data from multiple sources and provides actionable insights through intuitive visualizations.",
-    client: "Global Manufacturing Corp.",
-    deliverables: ["UX/UI Design", "Frontend Development", "Data Integration", "Documentation"],
-    technologies: ["React", "TypeScript", "D3.js", "REST API"],
-    year: "2024"
-  },
+  id: "enterprise-dashboard",
+  image: "/projects/pdf-exporter.gif",
+  title: "Document Exporter Tool",
+  category: "Web App, React",
+  description: "A versatile exporter tool that enables users to seamlessly convert and export documents in PDF, image, and Word formats. Designed for enterprise use, it supports high-quality output and batch processing, improving productivity and document management workflows.",
+  client: "Global Manufacturing Corp.",
+  deliverables: [
+    "UX/UI Design",
+    "Frontend Development",
+    "Export Functionality for PDF, Image, and Word",
+    "Integration with Backend Services",
+    "User Documentation"
+  ],
+  technologies: ["React", "TypeScript", "FileSaver.js", "jsPDF", "REST API"],
+  year: "2024"
+}
+,
   {
     id: "mobile-banking",
-    image: "/placeholder.svg",
+    image: "public/projects/community-app.gif",
     title: "Mobile Banking Experience",
     category: "Mobile App, Fintech",
     description: "A secure and user-friendly mobile banking application that simplifies financial management with features like biometric authentication, real-time transactions, and personalized insights.",
@@ -47,7 +69,7 @@ export const showcaseItems: ShowcaseItem[] = [
   },
   {
     id: "marketing-landing",
-    image: "/placeholder.svg",
+    image: "public/projects/trix-rap.gif",
     title: "Marketing Landing Page",
     category: "Website, Conversion",
     description: "A high-converting landing page designed for a product launch campaign that achieved a 32% conversion rate through strategic messaging and optimized user flow.",
