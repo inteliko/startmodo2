@@ -17,16 +17,24 @@ const BuildWithTools = () => {
         <div className="bg-gray-800 px-6 py-3 rounded-full">Portal</div>
       </div>
       
-      <div className="relative">
-        <div className="flex flex-wrap justify-center gap-4">
-          {/* Would use actual SVG icons for these tech logos in a real implementation */}
-          {[...Array(15)].map((_, i) => (
-            <div key={i} className="w-14 h-14 bg-gray-700 rounded-full flex items-center justify-center">
-              <img src="/placeholder.svg" alt={`Tool ${i+1}`} className="w-8 h-8" />
+      <div className="relative py-8">
+        <div className="flex flex-wrap justify-center gap-6">
+          {[...Array(36)].map((_, i) => (
+            <div
+              key={i}
+              className="w-16 h-16 bg-[#2a2a2a] rounded-full flex items-center justify-center shadow-md hover:scale-110 transition-transform duration-300"
+            >
+              <img
+                src={`/icons/hq_icon_${i + 1}.png`}
+                alt={`Tool ${i + 1}`}
+                className="w-8 h-8 object-contain"
+              />
             </div>
           ))}
         </div>
       </div>
+
+
     </div>
   );
 };
